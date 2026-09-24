@@ -1,0 +1,45 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+body{
+     font-family:Arial ;
+}
+ul{
+
+    list-style: none;
+}
+
+a {
+
+    text-decoration: #87509c;
+    color:white;
+}
+
+
+header{
+
+    background-color: #87509c ;
+    min-height: 500px;
+    padding: 40px 10%;
+}
+
+.header-top{
+
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
