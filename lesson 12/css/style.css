@@ -1,0 +1,40 @@
+h1{
+    background-color: green;
+    letter-spacing: 30px;
+    word-spacing: 30px;
+    text-indent: 20px;
+}
+
+p{
+    text-indent: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+
+p{
+    /* writing-mode: vertical-lr; */
+    /* writing-mode: vertical-rl; */
+    writing-mode: horizontal-tb;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Times New Roman', Times,serif; */
+}
+
+img{
+    /* clip-path: polygon(50%,0%,0%.100%,100%,100%)*/
+    /* clip-path:circle(50%) */
+    clip-path: polygon(50% 0%,100% 38%,82% 10%,18% 100%, 0% 38%);
+}
+
+@font-face{
+    font-family: Arial Narrow;
+    src:url("fonts/")
+}
