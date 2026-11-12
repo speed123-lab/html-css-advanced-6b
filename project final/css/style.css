@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    color:orange;
+    margin-left: 30px;
+    margin-top:10px ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: black;
+    width: 100%;
+}
+
+.logo {
+    color: orange;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: orange;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+
+.navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.navbar {
+    justify-content: flex-start;
+}
+
+.navbar ul {
+    margin-left: 490px;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+}
+
+.navbar ul {
+    gap:22px;
+}
