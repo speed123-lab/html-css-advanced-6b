@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 
 
@@ -63,4 +64,39 @@ h1{
 
 .navbar ul {
     gap:22px;
+}
+
+.text {
+    text-align: left;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.text h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.text p {
+    font-size: 18px;
+    color: #ffffff;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 100px;
+}
+.container img{
+    width: 550px;
+}
+.buttoni{
+   margin-left: 700px;
+   padding: 7px 20px;
+   background-color: orange;
+   border: none;
+   border-radius: 5px;
+   
+
 }
