@@ -100,3 +100,79 @@ h1{
    
 
 }
+
+
+summary {
+    color: rgb(0, 0, 0);
+}
+
+
+summary {
+    white-space: nowrap;
+}
+
+
+.home-page {
+    background-color: black;
+    width:100%;
+    min-height: 100vh;
+}
+
+.home-img img {
+    width: 550px;
+    height: auto;
+    float: left;
+}
+.home-img {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.motor-card {
+    width: 350px;
+    text-align: center;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.motor-card img {
+    width: 100%;
+    height: auto;
+}
+
+.motor-card h2 {
+    color: orange;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.motor-card p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+
+
+.motor-card {
+    width: 400px;
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+
+
+.yamaha {
+    margin-left: 600px;
+    margin-top: -350px;
+}
