@@ -162,17 +162,75 @@ h1 {
 
 
 .motor-card {
-    width: 400px;
-    text-align: center;
-    background-color: #222;
-    padding: 20px;
+    width:300px;
+    text-align:center;
+    background-color:#222;
+    padding: 10px;
     border-radius: 10px;
-    margin-left: 80px;
+    margin-left: 10px;
+}
+
+.motor-card img{
+    width:100%;
+    height:auto;
+}
+
+motor-card h2 {
+    color:orange;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.motor-card p {
+    color:white;
+    font-size:13px;
+    line-height:1.5;
+    margin-left:10px;
+}
+
+
+.navbar ul{
+    display:flex;
+    align-items:center;
+    flex-wrap:nowrap;
+    gap:25px;
+}
+
+.navbar ul li {
+    list-style:none;
+    white-space:nowrap;
+}
+
+.navbar ul li a {
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+.motor-card {
+    display:inline-block;
+    width:400px;
+    vertical-align:top;
+}
+
+
+.motor-conainer {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 30px;
+}
+
+.motor-card h3 {
+    color:orange;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
 }
 
 
 
-.yamaha {
-    margin-left: 600px;
-    margin-top: -350px;
-}
