@@ -175,7 +175,7 @@ h1 {
     height:auto;
 }
 
-motor-card h2 {
+.motor-card h2 {
     color:orange;
     font-size:20px;
     margin-top:10px;
@@ -232,5 +232,121 @@ motor-card h2 {
     margin-left: -100px;
 }
 
+.home {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto auto auto;
+    column-gap:20px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items:start;
+}
+
+.titulli-home {
+    grid-column: 1 / 3;
+    grid-row:1;
+    text-align: center;
+}
+
+.home > :nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.home > :nth-child(3) {
+    grid-column:1;
+    grid-row: 3;
+
+}
+
+.home > :nth-child(4) {
+    grid-column:2;
+    grid-row:2;
+}
 
 
+.home > :nth-child(5) {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+.yamaha {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex end;
+    width:350px;
+    margin-left:auto;
+}
+
+.motorcycle-container {
+    display:grid;
+    grid-template-columns: 350px 350px;
+    justify-content: space-between;
+    align-items: start;
+    width:100%;
+}
+
+.motorcycle-left{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+   
+
+.motorcycle-right {
+    grid-column:2;
+    grid-row:1;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.motorcycle-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+}
+
+.motorcycle-left,
+.motorcycle-right {
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    gap:20px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    gap:15px;
+    margin:left 10px;
+    padding:15px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin:left 10px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    gap:15px;
+    margin:left 10px;
+}
