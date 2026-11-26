@@ -3,98 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Build Yours | Velocity Moto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <h1>MotorZone</h1>
-        <p>Your dream motor stars here</p>
+<body class="form-page">
+    <header class="site-header solid-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html"><span class="brand-mark">VM</span><span>VELOCITY MOTO</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Models</a></li>
+                <li><a class="active" href="buy.html">Build yours</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <h2>Order your<span>Dream motor</span></h2>
-        <p>Complete the form below and take the first step towards your new car.</p>
-    </section>
+    <main class="enquiry-layout">
+        <section class="enquiry-visual">
+            <div class="enquiry-overlay"></div>
+            <div>
+                <p class="eyebrow"><span></span> Personal consultation</p>
+                <h1>Start your<br><em>journey.</em></h1>
+            </div>
+        </section>
 
-    <div class="container">
-
-        <h3>Costumer Information</h3>
-
-        <form id="orderForm">
-
-            <div class="form-grid">
-
-                <div class="form group">
-                    <label>First Name</label>
-                    <input type="text" placeholder="Enter your first name" required>
+        <section class="enquiry-form-wrap">
+            <div class="form-heading">
+                <p>02 / Enquiry</p>
+                <h2>Build your motorcycle</h2>
+            </div>
+            <form id="orderForm">
+                <div class="form-row">
+                    <label>First name<input type="text" name="firstName" placeholder="Alex" required></label>
+                    <label>Last name<input type="text" name="lastName" placeholder="Morgan" required></label>
                 </div>
-
-                <div class="form-group">
-                    <label>Last Name</label>
-                    <input type="text" placeholder="Enter your last name" required>
+                <div class="form-row">
+                    <label>Email address<input type="email" name="email" placeholder="alex@example.com" required></label>
+                    <label>Phone number<input type="tel" name="phone" placeholder="+383 00 000 000" required></label>
                 </div>
-
-                <div class="form-group">
-                    <label>Phone Number</label>
-                    <input type="tel" placeholder="example@gmail.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label>City</label>
-                    <input type="text" placeholder="Enter your city" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Address</label>
-                    <input type="text" placeholder="Enter your address" required>
-                </div>
-
-
-                <div class="form-group full">
-                    <label>Select your dream motor</label>
-                    <select required>
-                        <option value="">Choose your motor</option>
-                        <option>Kawasaki Ninja H2R</option>
-                        <option>Aprilia RS 457</option>
-                        <option>Yamaha YZF-R1</option>
-                        <option>Kawasaki Ninja 1000Sx</option>
+                <label>Selected model
+                    <select name="model" id="modelSelect" required>
+                        <option value="">Choose a motorcycle</option>
+                        <option value="H2R">Kawasaki Ninja H2R</option>
+                        <option value="RS 457">Aprilia RS 457</option>
+                        <option value="R1">Yamaha YZF-R1</option>
+                        <option value="Ninja 1000SX">Kawasaki Ninja 1000SX</option>
                     </select>
-                </div>
-
-                <div class="form-group full">
-                    <label>Additional Information</label>
-                    <textarea placeholder="Write any Additional Information here..."></textarea> 
-                </div>
-
-            </div>
-
-            <div class="confirm">
-                <input type="checkbox" id="agree" required>
-                <label for="agree">
-                    I confirm that the information provided is correct.
                 </label>
-            </div>
-
-            <button type="submit"> Confirm Your Order</button>
-
-            <p id="message"></p>
-
-        </form>
-    </div>
-
-
-
-                
-
-                
-
-
-                
-    
-
-
-
-    
+                <label>Additional information<textarea name="message" rows="4" placeholder="Tell us about your preferred colour, accessories or visit date."></textarea></label>
+                <label class="checkbox-row"><input type="checkbox" required><span>I agree to be contacted about this enquiry.</span></label>
+                <button class="button button-primary form-submit" type="submit">Send enquiry <span>→</span></button>
+                <p class="form-message" id="message" role="status"></p>
+            </form>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -3,89 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Motorcycle Models | Velocity Moto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="site-header solid-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html"><span class="brand-mark">VM</span><span>VELOCITY MOTO</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="home.html">Models</a></li>
+                <li><a href="buy.html">Build yours</a></li>
+                <li><a class="nav-cta" href="buy.html">Enquire now</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="home">
+    <main class="models-page">
+        <section class="page-heading">
+            <p class="eyebrow dark"><span></span> The 2026 range</p>
+            <h1>Choose your<br><em>machine.</em></h1>
+        </section>
 
-
-        <div class="titulli-home">
-           <h1>TOP 4 FASTEST MOTORCYCLES IN THE WORLD</h1>
-        </div>
-    </section>
-
-    <div class="motorcycle-container">
-       <div class="motorcycle-left">
- 
-<div class="motor-card">
-
-    <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/2023/01/suzuki-gsx-r750-2.jpg?w=1600&h=900&fit=crop" alt="Kawasaki Ninja">
-
-    <h2>Kawasaki Ninja H2R</h2>
-
-    <p>
-        Kawasaki Ninja H2R is one of the most powerful
-        motorcycles in the world. It features an incredible
-        engine, aggressive design and extreme performance.
-        This motorcycle is built for speed and adrenaline.
-    </p>
-
-
-
-<div class="motorcycle-card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmYXb0PblYZZRfNFxuDvrx46lLiRmhgxe-UtIBW8l5SzGzbxvKOWzXCEM&s=10" alt=" Aprilias RS 457">
-    <h3>Aprilia RS 457</h3>
-    <p>
-         The Aprilia RS 457 is a modern sports motorcycle with a beautiful and aerodynamic
-         design. It has a two-cylinder, 457cc engine that offers great performance.
-         The Aprilia RS 457 is equipped with modern technology and an advanced braking 
-         system. This motorcycle is a great choice for people who love speed and sporty
-         style.
-
-    </p>
-</div>
-
-   </div>
-<div class="motorcycle-left">
-
-
-
-    <div class="right column">
-
-<div class="motor-card right-card">
-
-    <img src="https://nrmotoco.com/wp-content/uploads/2026/01/Yamaha-YZF-R7.jpg">
-
-    <h3>Yamaha YZF-R1</h3>
-
-    <p>
-        Yamaha YZF-R1 is one of the most famous sport motorcycles in the world. It has a powerful engine, modern design and excellent performance.
-         Its sporty appearance and advanced technology make it very popular among
-          motorcycle fans. The Yamaha R1 is designed for speed, control and an
-           exciting riding experience.  
-    </p>
-</div>
-
-<div class="motor-card right-card">
-    <img src="https://cdn-fastly.motorcycle.com/media/2023/03/20/11107219/best-sport-touring-motorcycle-of-2020.jpg?size=720x845&nocrop=1">
-
-    <h4>Kawasaki Ninja 1000Sx</h4>
-
-    <p>
-        The Kawasaki Ninja 1000SX is a modern sport motorcycle that combines power,
-         speed, and comfort. It has an aggressive and aerodynamic design that makes
-          it look very attractive. Its 1043cc engine provides excellent performance
-           and strong acceleration.
-            The Ninja 1000SX is perfect for both long journeys and sporty riding,
-         offering an amazing experience for motorcycle lovers.
-    </p>
-</div>
-
- 
-
-
-
+        <section class="model-grid">
+            <article class="model-card reveal">
+                <div class="model-image">
+                    <img src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Kawasaki Ninja H2R">
+                    <span class="model-badge">Track</span>
+                </div>
+                <div class="model-info">
+                    <p>Supercharged / 998 cc</p>
+                    <h2>Kawasaki Ninja H2R</h2>
+                    <div class="model-specs"><span><strong>326</strong> hp</span><span><strong>400</strong> km/h</span></div>
+                    <a href="buy.html?model=H2R">Configure <span>→</span></a>
+                </div>
+            </article>
+            <article class="model-card reveal">
+                <div class="model-image">
+                    <img src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Aprilia RS 457">
+                    <span class="model-badge">Sport</span>
+                </div>
+                <div class="model-info">
+                    <p>Parallel twin / 457 cc</p>
+                    <h2>Aprilia RS 457</h2>
+                    <div class="model-specs"><span><strong>47</strong> hp</span><span><strong>180</strong> km/h</span></div>
+                    <a href="buy.html?model=RS%20457">Configure <span>→</span></a>
+                </div>
+            </article>
+            <article class="model-card reveal">
+                <div class="model-image">
+                    <img src="https://images.pexels.com/photos/1715184/pexels-photo-1715184.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Yamaha YZF-R1">
+                    <span class="model-badge">Supersport</span>
+                </div>
+                <div class="model-info">
+                    <p>Crossplane / 998 cc</p>
+                    <h2>Yamaha YZF-R1</h2>
+                    <div class="model-specs"><span><strong>200</strong> hp</span><span><strong>299</strong> km/h</span></div>
+                    <a href="buy.html?model=R1">Configure <span>→</span></a>
+                </div>
+            </article>
+            <article class="model-card reveal">
+                <div class="model-image">
+                    <img src="https://images.pexels.com/photos/595808/pexels-photo-595808.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Kawasaki Ninja 1000SX">
+                    <span class="model-badge">Sport tourer</span>
+                </div>
+                <div class="model-info">
+                    <p>Inline four / 1043 cc</p>
+                    <h2>Kawasaki Ninja 1000SX</h2>
+                    <div class="model-specs"><span><strong>142</strong> hp</span><span><strong>250</strong> km/h</span></div>
+                    <a href="buy.html?model=Ninja%201000SX">Configure <span>→</span></a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
